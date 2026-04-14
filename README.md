@@ -44,7 +44,7 @@ This tool exposes that hidden bias and fixes it.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repo
 ```bash
