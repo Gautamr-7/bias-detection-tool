@@ -1,4 +1,4 @@
-# ⚖️ Bias Detection & Fairness Auditing Tool
+# Bias Detection & Fairness Auditing Tool
 
 A fairness auditing system for machine learning models that detects demographic bias, visualizes disparate impact across protected attributes, and applies mitigation techniques — aligned with **auditable and governable AI** principles.
 
@@ -6,7 +6,7 @@ Built as part of the **Hack2Skill Solution Challenge 2026** (Unbiased AI Decisio
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Computer programs now make life-changing decisions — who gets a job, a bank loan, or medical care. When these models are trained on historical data that contains discrimination, they **learn and amplify those exact same biases**.
 
@@ -14,7 +14,7 @@ This tool exposes that hidden bias and fixes it.
 
 ---
 
-## 🔍 What It Does
+##  What It Does
 
 | Step | Description |
 |------|-------------|
@@ -25,7 +25,7 @@ This tool exposes that hidden bias and fixes it.
 
 ---
 
-## 📊 Fairness Metrics Used
+##  Fairness Metrics Used
 
 - **Disparate Impact** — Ratio of positive outcome rates between groups (fair = ≥ 0.80)
 - **Statistical Parity Difference** — Difference in prediction rates (fair = ≈ 0)
@@ -33,7 +33,7 @@ This tool exposes that hidden bias and fixes it.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python** — Core logic
 - **IBM AIF360** — Bias detection and mitigation library
@@ -64,7 +64,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 bias-detection-tool/
@@ -88,7 +88,7 @@ aif360
 
 ---
 
-## 💡 Dataset
+##  Dataset
 
 Uses the **Adult Income Dataset** (UCI ML Repository) — built into IBM AIF360.
 
@@ -99,19 +99,19 @@ Uses the **Adult Income Dataset** (UCI ML Repository) — built into IBM AIF360.
 
 ---
 
-## 📈 Sample Results
+##  Sample Results
 
 | Metric | Before Mitigation | After Mitigation |
 |--------|-------------------|------------------|
-| Disparate Impact | ~0.36 ❌ | ~0.85 ✅ |
-| Statistical Parity Diff | ~-0.19 ❌ | ~-0.05 ✅ |
+| Disparate Impact | ~0.36  | ~0.85  |
+| Statistical Parity Diff | ~-0.19  | ~-0.05  |
 | Model Accuracy | ~85% | ~83% |
 
 > Fairness improved significantly with only a **~2% drop in accuracy** — proving fairness and performance are not mutually exclusive.
 
 ---
 
-## 🧠 Mitigation Technique: Reweighing
+##  Mitigation Technique: Reweighing
 
 Reweighing is a **pre-processing** bias mitigation technique from IBM AIF360.
 
@@ -119,13 +119,10 @@ Instead of changing the data, it assigns **sample weights** to training examples
 
 ---
 
-## 🔗 Relevance to AI Governance
+##  Relevance to AI Governance
 
 This project directly addresses:
 - **Auditable AI** — Every fairness decision is measurable and explainable
 - **Governable AI** — Organizations can detect and fix bias before deployment
 - **Responsible AI** — Prevents real-world harm from biased automated decisions
 
-## 📄 License
-
-MIT License — free to use and modify
