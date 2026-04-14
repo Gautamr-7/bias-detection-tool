@@ -75,7 +75,7 @@ bias-detection-tool/
 
 ---
 
-## 📦 requirements.txt
+##  requirements.txt
 
 ```
 streamlit
