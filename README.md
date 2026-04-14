@@ -126,16 +126,6 @@ This project directly addresses:
 - **Governable AI** — Organizations can detect and fix bias before deployment
 - **Responsible AI** — Prevents real-world harm from biased automated decisions
 
----
-
-## 👨‍💻 Author
-
-**Gautam R**  
-Co-Founder, Flink | 2nd Year CSE, Model Engineering College, Kochi  
-[GitHub](https://github.com/Gautamr-7) · [LinkedIn](https://www.linkedin.com/in/gautamr1357/)
-
----
-
 ## 📄 License
 
 MIT License — free to use and modify
