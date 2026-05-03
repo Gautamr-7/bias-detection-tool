@@ -1,7 +1,7 @@
 # AI Fairness Auditor
 
 Detect algorithmic bias before it causes harm — with **counterfactual causal testing**, proxy risk scoring, and professional audit reporting.
-Link---->https://biastool.streamlit.app/
+
 
 ## Why this project stands out
 
